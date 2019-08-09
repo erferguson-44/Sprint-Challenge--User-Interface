@@ -69,6 +69,30 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    border:1px solid purple;
+}
+
+header{
+    border:1px solid purple;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+nav{
+    border:1px solid purple;
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom:25px;
+    padding-right:25px;
+}
+nav a{
+    border:1px solid purple;
+    text-decoration: none;
+    color:black;
+    font-size:14px;
+}
+img{
+    border:1px solid red;
 }
 
 .top-content {
