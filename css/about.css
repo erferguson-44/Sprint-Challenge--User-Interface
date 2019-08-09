@@ -121,10 +121,6 @@ nav a{
     border-bottom: 1px dashed black; 
 }
 
-.middle-top h2, p{
-    padding-top:2px;
-}
-
 button{
     border:2px solid black;
     border-radius:10px;
@@ -157,6 +153,9 @@ button:active {
 footer {
     width: 100%;
     background: black;
+}
+footer:hover{
+    background:crimson;
 }
 
 footer nav {
