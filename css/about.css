@@ -63,10 +63,10 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-    border:1px solid purple;
     width:90%;
     line-height: 1.4;
     font-size:14px;
+    font-weight:bold;
     margin-bottom:20px;
 }
 
@@ -83,7 +83,7 @@ nav{
     display:flex;
     align-items: baseline;
     justify-content: space-between;
-    padding-bottom:25px;
+    padding-bottom:40px;
     padding-right:25px;
 }
 nav a{
@@ -93,22 +93,28 @@ nav a{
     font-weight:bold;
 }
 /*MAIN*/
+
 .top{
     border-bottom:1px dashed black;
+    padding:0 15px;
+}
+.top p{
+    width:100%;
 }
 .middle{
     display:flex;
-    padding:25px 0;
-}
-.middle-top{
+    padding:25px 5px;
     border-bottom:1px dashed black;
 }
+.middle-top{
+}
+
 .middle-top h2, p{
     padding-top:2px;
 }
 
 .middle-bottom{
-    border-bottom:1px dashed black;
+    /* border-bottom:1px dashed black; */
 }
 
 button{
@@ -116,13 +122,16 @@ button{
     border-radius:10px;
     height:35px;
     width:100px;
-    font-weight:normal;
+    font-weight:bold;
     margin-bottom:20px;
 }
 
 /*BOTTOM*/
 .bottom{
-    border:1px solid purple;
+    padding:15px;
+}
+.bottom p{
+    width:100%;
 }
 /*FOOTER*/
 footer {
