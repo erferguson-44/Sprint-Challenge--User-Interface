@@ -103,10 +103,22 @@ nav a{
 }
 .middle{
     display:flex;
-    padding:25px 5px;
-    border-bottom:1px dashed black;
+    padding-top:10px;
 }
 
+.mL, .mR{
+    display:flex;
+    flex-direction:column;
+    padding:15px;
+}
+.mL:after, .mR:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 100%; 
+    padding-top: 20px; 
+    border-bottom: 1px dashed black; 
+}
 
 .middle-top h2, p{
     padding-top:2px;
