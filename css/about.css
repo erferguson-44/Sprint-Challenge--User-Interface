@@ -70,7 +70,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/*HEADER_NAV*/
 header{
     padding-top:25px;
     padding-bottom:25px;
@@ -87,4 +87,26 @@ nav a{
     color:black;
     font-size:14px;
     font-weight:bold;
+}
+
+
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
